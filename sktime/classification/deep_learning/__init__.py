@@ -19,6 +19,7 @@ __all__ = [
     "GRUClassifier",
     "GRUFCNNClassifier",
     "ConvTimeNetClassifier",
+    "InceptionTimePlusClassifier"
 ]
 
 from sktime.classification.deep_learning.cnn import CNNClassifier
@@ -49,3 +50,6 @@ from sktime.classification.deep_learning.rnn import (
     SimpleRNNClassifierTorch,
 )
 from sktime.classification.deep_learning.tapnet import TapNetClassifier
+from sktime.classification.deep_learning.tsai.inceptiontimeplus import (
+    InceptionTimePlusClassifier,
+)
